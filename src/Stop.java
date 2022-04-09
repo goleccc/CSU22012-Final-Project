@@ -5,9 +5,9 @@ public class Stop {
     Stop(int stopId, String stopName){
         this.stopId = stopId;
         this.stopName = stopName;
-        if(stopName.indexOf("FLAGSTOP") != -1 || stopName.indexOf("WB") != -1 ||
-                stopName.indexOf("NB") != -1 || stopName.indexOf("SB") != -1 ||
-                stopName.indexOf("EB") != -1){
+        if(stopName.indexOf("FLAGSTOP ") != -1 || stopName.indexOf("WB ") != -1 ||
+                stopName.indexOf("NB ") != -1 || stopName.indexOf("SB ") != -1 ||
+                stopName.indexOf("EB ") != -1){
             String[] split = stopName.split("\\s", 2);
             this.stopName = split[1] + " " + split[0];
         }
