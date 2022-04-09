@@ -1,3 +1,6 @@
+/*
+@author Laura Golec 20332099
+ */
 import java.util.ArrayList;
 
 public class NecessaryFunctions {
